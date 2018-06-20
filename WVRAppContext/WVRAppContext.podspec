@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
     s.name         = 'WVRAppContext'
-    s.version      = '0.4.4'
+    s.version      = '0.0.1'
     s.summary      = 'WVRAppContext files'
-    s.homepage     = 'https://git.moretv.cn/whaley-vr-ios-lib/WVRAppContext'
+    s.homepage     = 'https://github.com/portal-io/portal-ios-library/tree/master/WVRAppContext'
     s.license      = 'MIT'
-    s.authors      = {'whaleyvr' => 'vr-iosdev@whaley.cn'}
+    s.authors      = {'qbshen' => '2837915131@qq.com'}
     s.platform     = :ios, '9.0'
-    s.source       = {:git => 'https://git.moretv.cn/whaley-vr-ios-lib/WVRAppContext.git', :tag => s.version}
+    s.source       = {:git => 'https://github.com/portal-io/portal-ios-library.git', :tag => s.version}
     # s.source_files = ['WVRAppContext/Core/**/*']
 
     # 无依赖
