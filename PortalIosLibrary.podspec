@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PortalIosLibrary"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "for portal-ios project."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.subspec 'WVRAppContext' do |cur|
-  cur.source_files = 'WVRAppContext/WVRAppContext/Core/*'
+  cur.source_files = 'WVRAppContext/WVRAppContext/Core/**/*.{h,m}'
   end
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
