@@ -1,0 +1,13 @@
+#use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, "9.0"
+inhibit_all_warnings!
+
+target 'WVRAppContext' do
+    pod 'Toast',                    '~> 3.0'
+	pod 'SAMKeychain',              '~> 1.5'
+    pod 'Reachability',             '~> 3.2'
+    pod 'CocoaLumberjack',          '~> 3.2.0'
+end
+

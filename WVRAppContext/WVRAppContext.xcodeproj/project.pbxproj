@@ -1,0 +1,910 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195361DF1F14BC6B008B203E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 195361DE1F14BC6B008B203E /* main.m */; };
+		195361E21F14BC6B008B203E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 195361E11F14BC6B008B203E /* AppDelegate.m */; };
+		195361E51F14BC6B008B203E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 195361E41F14BC6B008B203E /* ViewController.m */; };
+		195361E81F14BC6B008B203E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195361E61F14BC6B008B203E /* Main.storyboard */; };
+		195361EB1F14BC6B008B203E /* WVRAppContext.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 195361E91F14BC6B008B203E /* WVRAppContext.xcdatamodeld */; };
+		195361ED1F14BC6B008B203E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 195361EC1F14BC6B008B203E /* Assets.xcassets */; };
+		195361F01F14BC6B008B203E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195361EE1F14BC6B008B203E /* LaunchScreen.storyboard */; };
+		195361FB1F14BC6B008B203E /* WVRAppContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 195361FA1F14BC6B008B203E /* WVRAppContextTests.m */; };
+		195362061F14BC6B008B203E /* WVRAppContextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 195362051F14BC6B008B203E /* WVRAppContextUITests.m */; };
+		21A77D8B6DA3812CA9DE5F95 /* libPods-WVRAppContext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2808FE6ED3734F9D9EA2B5A8 /* libPods-WVRAppContext.a */; };
+		32A27A2B1F5CFB89005C04A4 /* WVRFrameDefineHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A27A2A1F5CFB89005C04A4 /* WVRFrameDefineHelper.m */; };
+		32EBC84E1F3B404B00A5E0B2 /* CAAnimation+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8071F3B404B00A5E0B2 /* CAAnimation+Extension.m */; };
+		32EBC84F1F3B404B00A5E0B2 /* NSArray+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8091F3B404B00A5E0B2 /* NSArray+Extend.m */; };
+		32EBC8501F3B404B00A5E0B2 /* NSDate+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC80B1F3B404B00A5E0B2 /* NSDate+Extend.m */; };
+		32EBC8511F3B404B00A5E0B2 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC80D1F3B404B00A5E0B2 /* NSDictionary+Extension.m */; };
+		32EBC8521F3B404B00A5E0B2 /* NSString+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC80F1F3B404B00A5E0B2 /* NSString+Extend.m */; };
+		32EBC8531F3B404B00A5E0B2 /* NSURL+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8111F3B404B00A5E0B2 /* NSURL+Extend.m */; };
+		32EBC8541F3B404B00A5E0B2 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8131F3B404B00A5E0B2 /* TPKeyboardAvoidingScrollView.m */; };
+		32EBC8551F3B404B00A5E0B2 /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8151F3B404B00A5E0B2 /* UIAlertController+Extend.m */; };
+		32EBC8561F3B404B00A5E0B2 /* UIButton+Extends.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8171F3B404B00A5E0B2 /* UIButton+Extends.m */; };
+		32EBC8571F3B404B00A5E0B2 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8191F3B404B00A5E0B2 /* UIColor+Extend.m */; };
+		32EBC8581F3B404B00A5E0B2 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC81B1F3B404B00A5E0B2 /* UIImage+Extend.m */; };
+		32EBC8591F3B404B00A5E0B2 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC81D1F3B404B00A5E0B2 /* UIImageView+CornerRadius.m */; };
+		32EBC85A1F3B404B00A5E0B2 /* UIImageView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC81F1F3B404B00A5E0B2 /* UIImageView+Extend.m */; };
+		32EBC85B1F3B404B00A5E0B2 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8211F3B404B00A5E0B2 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		32EBC85C1F3B404B00A5E0B2 /* UIView+EasyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8231F3B404B00A5E0B2 /* UIView+EasyLayout.m */; };
+		32EBC85D1F3B404B00A5E0B2 /* UIView+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8251F3B404B00A5E0B2 /* UIView+Extend.m */; };
+		32EBC85E1F3B404B00A5E0B2 /* UIView+Shake.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8271F3B404B00A5E0B2 /* UIView+Shake.m */; };
+		32EBC85F1F3B404B00A5E0B2 /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8291F3B404B00A5E0B2 /* UIViewController+HUD.m */; };
+		32EBC8601F3B404B00A5E0B2 /* WVRAPIConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC82E1F3B404B00A5E0B2 /* WVRAPIConst.m */; };
+		32EBC8621F3B404B00A5E0B2 /* WVRUIConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8341F3B404B00A5E0B2 /* WVRUIConst.m */; };
+		32EBC8631F3B404B00A5E0B2 /* WVRAppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC83F1F3B404B00A5E0B2 /* WVRAppContext.m */; };
+		32EBC8641F3B404B00A5E0B2 /* WVRAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8411F3B404B00A5E0B2 /* WVRAppModel.m */; };
+		32EBC8651F3B404B00A5E0B2 /* WVRDeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8431F3B404B00A5E0B2 /* WVRDeviceModel.m */; };
+		32EBC8661F3B404B00A5E0B2 /* WVRReachabilityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8451F3B404B00A5E0B2 /* WVRReachabilityModel.m */; };
+		32EBC8671F3B404B00A5E0B2 /* WVRUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC8471F3B404B00A5E0B2 /* WVRUserModel.m */; };
+		32EBC8681F3B404B00A5E0B2 /* WVRProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EBC84D1F3B404B00A5E0B2 /* WVRProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195361F71F14BC6B008B203E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195361D21F14BC6B008B203E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195361D91F14BC6B008B203E;
+			remoteInfo = WVRAppContext;
+		};
+		195362021F14BC6B008B203E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 195361D21F14BC6B008B203E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 195361D91F14BC6B008B203E;
+			remoteInfo = WVRAppContext;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		195361DA1F14BC6B008B203E /* WVRAppContext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WVRAppContext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		195361DE1F14BC6B008B203E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		195361E01F14BC6B008B203E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		195361E11F14BC6B008B203E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		195361E31F14BC6B008B203E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		195361E41F14BC6B008B203E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		195361E71F14BC6B008B203E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		195361EA1F14BC6B008B203E /* WVRAppContext.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WVRAppContext.xcdatamodel; sourceTree = "<group>"; };
+		195361EC1F14BC6B008B203E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		195361EF1F14BC6B008B203E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		195361F11F14BC6B008B203E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195361F61F14BC6B008B203E /* WVRAppContextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRAppContextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195361FA1F14BC6B008B203E /* WVRAppContextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRAppContextTests.m; sourceTree = "<group>"; };
+		195361FC1F14BC6B008B203E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		195362011F14BC6B008B203E /* WVRAppContextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRAppContextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		195362051F14BC6B008B203E /* WVRAppContextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRAppContextUITests.m; sourceTree = "<group>"; };
+		195362071F14BC6B008B203E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2808FE6ED3734F9D9EA2B5A8 /* libPods-WVRAppContext.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WVRAppContext.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3292EC671F3C55240054CC0A /* WVRContextModelsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRContextModelsHeader.h; sourceTree = "<group>"; };
+		32A27A291F5CFB89005C04A4 /* WVRFrameDefineHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRFrameDefineHelper.h; sourceTree = "<group>"; };
+		32A27A2A1F5CFB89005C04A4 /* WVRFrameDefineHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRFrameDefineHelper.m; sourceTree = "<group>"; };
+		32EBC8061F3B404B00A5E0B2 /* CAAnimation+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+Extension.h"; sourceTree = "<group>"; };
+		32EBC8071F3B404B00A5E0B2 /* CAAnimation+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+Extension.m"; sourceTree = "<group>"; };
+		32EBC8081F3B404B00A5E0B2 /* NSArray+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extend.h"; sourceTree = "<group>"; };
+		32EBC8091F3B404B00A5E0B2 /* NSArray+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extend.m"; sourceTree = "<group>"; };
+		32EBC80A1F3B404B00A5E0B2 /* NSDate+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extend.h"; sourceTree = "<group>"; };
+		32EBC80B1F3B404B00A5E0B2 /* NSDate+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extend.m"; sourceTree = "<group>"; };
+		32EBC80C1F3B404B00A5E0B2 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		32EBC80D1F3B404B00A5E0B2 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		32EBC80E1F3B404B00A5E0B2 /* NSString+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extend.h"; sourceTree = "<group>"; };
+		32EBC80F1F3B404B00A5E0B2 /* NSString+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extend.m"; sourceTree = "<group>"; };
+		32EBC8101F3B404B00A5E0B2 /* NSURL+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Extend.h"; sourceTree = "<group>"; };
+		32EBC8111F3B404B00A5E0B2 /* NSURL+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Extend.m"; sourceTree = "<group>"; };
+		32EBC8121F3B404B00A5E0B2 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		32EBC8131F3B404B00A5E0B2 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		32EBC8141F3B404B00A5E0B2 /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
+		32EBC8151F3B404B00A5E0B2 /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
+		32EBC8161F3B404B00A5E0B2 /* UIButton+Extends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extends.h"; sourceTree = "<group>"; };
+		32EBC8171F3B404B00A5E0B2 /* UIButton+Extends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extends.m"; sourceTree = "<group>"; };
+		32EBC8181F3B404B00A5E0B2 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		32EBC8191F3B404B00A5E0B2 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		32EBC81A1F3B404B00A5E0B2 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		32EBC81B1F3B404B00A5E0B2 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		32EBC81C1F3B404B00A5E0B2 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		32EBC81D1F3B404B00A5E0B2 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		32EBC81E1F3B404B00A5E0B2 /* UIImageView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Extend.h"; sourceTree = "<group>"; };
+		32EBC81F1F3B404B00A5E0B2 /* UIImageView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Extend.m"; sourceTree = "<group>"; };
+		32EBC8201F3B404B00A5E0B2 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		32EBC8211F3B404B00A5E0B2 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		32EBC8221F3B404B00A5E0B2 /* UIView+EasyLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyLayout.h"; sourceTree = "<group>"; };
+		32EBC8231F3B404B00A5E0B2 /* UIView+EasyLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyLayout.m"; sourceTree = "<group>"; };
+		32EBC8241F3B404B00A5E0B2 /* UIView+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extend.h"; sourceTree = "<group>"; };
+		32EBC8251F3B404B00A5E0B2 /* UIView+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extend.m"; sourceTree = "<group>"; };
+		32EBC8261F3B404B00A5E0B2 /* UIView+Shake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shake.h"; sourceTree = "<group>"; };
+		32EBC8271F3B404B00A5E0B2 /* UIView+Shake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shake.m"; sourceTree = "<group>"; };
+		32EBC8281F3B404B00A5E0B2 /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		32EBC8291F3B404B00A5E0B2 /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		32EBC82B1F3B404B00A5E0B2 /* WVRAppColorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppColorDefine.h; sourceTree = "<group>"; };
+		32EBC82D1F3B404B00A5E0B2 /* WVRAPIConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAPIConst.h; sourceTree = "<group>"; };
+		32EBC82E1F3B404B00A5E0B2 /* WVRAPIConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRAPIConst.m; sourceTree = "<group>"; };
+		32EBC82F1F3B404B00A5E0B2 /* WVRAppConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppConst.h; sourceTree = "<group>"; };
+		32EBC8321F3B404B00A5E0B2 /* WVRNotificationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRNotificationHeader.h; sourceTree = "<group>"; };
+		32EBC8331F3B404B00A5E0B2 /* WVRUIConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRUIConst.h; sourceTree = "<group>"; };
+		32EBC8341F3B404B00A5E0B2 /* WVRUIConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRUIConst.m; sourceTree = "<group>"; };
+		32EBC8361F3B404B00A5E0B2 /* WVRAppDebugDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppDebugDefine.h; sourceTree = "<group>"; };
+		32EBC8381F3B404B00A5E0B2 /* WVRAppDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppDefine.h; sourceTree = "<group>"; };
+		32EBC83A1F3B404B00A5E0B2 /* WVRAppFontDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppFontDefine.h; sourceTree = "<group>"; };
+		32EBC83C1F3B404B00A5E0B2 /* WVRAppFrameDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppFrameDefine.h; sourceTree = "<group>"; };
+		32EBC83E1F3B404B00A5E0B2 /* WVRAppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppContext.h; sourceTree = "<group>"; };
+		32EBC83F1F3B404B00A5E0B2 /* WVRAppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRAppContext.m; sourceTree = "<group>"; };
+		32EBC8401F3B404B00A5E0B2 /* WVRAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppModel.h; sourceTree = "<group>"; };
+		32EBC8411F3B404B00A5E0B2 /* WVRAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRAppModel.m; sourceTree = "<group>"; };
+		32EBC8421F3B404B00A5E0B2 /* WVRDeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRDeviceModel.h; sourceTree = "<group>"; };
+		32EBC8431F3B404B00A5E0B2 /* WVRDeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRDeviceModel.m; sourceTree = "<group>"; };
+		32EBC8441F3B404B00A5E0B2 /* WVRReachabilityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRReachabilityModel.h; sourceTree = "<group>"; };
+		32EBC8451F3B404B00A5E0B2 /* WVRReachabilityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRReachabilityModel.m; sourceTree = "<group>"; };
+		32EBC8461F3B404B00A5E0B2 /* WVRUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRUserModel.h; sourceTree = "<group>"; };
+		32EBC8471F3B404B00A5E0B2 /* WVRUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRUserModel.m; sourceTree = "<group>"; };
+		32EBC8491F3B404B00A5E0B2 /* WVRAppStringDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppStringDefine.h; sourceTree = "<group>"; };
+		32EBC84A1F3B404B00A5E0B2 /* WVRAppContextHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRAppContextHeader.h; sourceTree = "<group>"; };
+		32EBC84C1F3B404B00A5E0B2 /* WVRProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRProgressHUD.h; sourceTree = "<group>"; };
+		32EBC84D1F3B404B00A5E0B2 /* WVRProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRProgressHUD.m; sourceTree = "<group>"; };
+		62859D4669369F93173BE06F /* Pods-WVRAppContext.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRAppContext.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WVRAppContext/Pods-WVRAppContext.debug.xcconfig"; sourceTree = "<group>"; };
+		96F4C688ED5BF8834AE5AB53 /* Pods-WVRAppContext.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRAppContext.release.xcconfig"; path = "Pods/Target Support Files/Pods-WVRAppContext/Pods-WVRAppContext.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		195361D71F14BC6B008B203E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A77D8B6DA3812CA9DE5F95 /* libPods-WVRAppContext.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195361F31F14BC6B008B203E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195361FE1F14BC6B008B203E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195361D11F14BC6B008B203E = {
+			isa = PBXGroup;
+			children = (
+				195361DC1F14BC6B008B203E /* WVRAppContext */,
+				195361F91F14BC6B008B203E /* WVRAppContextTests */,
+				195362041F14BC6B008B203E /* WVRAppContextUITests */,
+				195361DB1F14BC6B008B203E /* Products */,
+				FC4C575C46A664EE8CB14AE5 /* Pods */,
+				E3D08EE69AF4D4060560D4E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		195361DB1F14BC6B008B203E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195361DA1F14BC6B008B203E /* WVRAppContext.app */,
+				195361F61F14BC6B008B203E /* WVRAppContextTests.xctest */,
+				195362011F14BC6B008B203E /* WVRAppContextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		195361DC1F14BC6B008B203E /* WVRAppContext */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC8041F3B404B00A5E0B2 /* Core */,
+				195361E01F14BC6B008B203E /* AppDelegate.h */,
+				195361E11F14BC6B008B203E /* AppDelegate.m */,
+				195361E31F14BC6B008B203E /* ViewController.h */,
+				195361E41F14BC6B008B203E /* ViewController.m */,
+				195361E61F14BC6B008B203E /* Main.storyboard */,
+				195361EC1F14BC6B008B203E /* Assets.xcassets */,
+				195361EE1F14BC6B008B203E /* LaunchScreen.storyboard */,
+				195361F11F14BC6B008B203E /* Info.plist */,
+				195361E91F14BC6B008B203E /* WVRAppContext.xcdatamodeld */,
+				195361DD1F14BC6B008B203E /* Supporting Files */,
+			);
+			path = WVRAppContext;
+			sourceTree = "<group>";
+		};
+		195361DD1F14BC6B008B203E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				195361DE1F14BC6B008B203E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		195361F91F14BC6B008B203E /* WVRAppContextTests */ = {
+			isa = PBXGroup;
+			children = (
+				195361FA1F14BC6B008B203E /* WVRAppContextTests.m */,
+				195361FC1F14BC6B008B203E /* Info.plist */,
+			);
+			path = WVRAppContextTests;
+			sourceTree = "<group>";
+		};
+		195362041F14BC6B008B203E /* WVRAppContextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				195362051F14BC6B008B203E /* WVRAppContextUITests.m */,
+				195362071F14BC6B008B203E /* Info.plist */,
+			);
+			path = WVRAppContextUITests;
+			sourceTree = "<group>";
+		};
+		32EBC8041F3B404B00A5E0B2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC8051F3B404B00A5E0B2 /* Category */,
+				32EBC82A1F3B404B00A5E0B2 /* Color */,
+				32EBC82C1F3B404B00A5E0B2 /* Const */,
+				32EBC8351F3B404B00A5E0B2 /* Debug */,
+				32EBC8371F3B404B00A5E0B2 /* Define */,
+				32EBC8391F3B404B00A5E0B2 /* Font */,
+				32EBC83B1F3B404B00A5E0B2 /* Frame */,
+				32EBC83D1F3B404B00A5E0B2 /* Model */,
+				32EBC8481F3B404B00A5E0B2 /* String */,
+				32EBC84A1F3B404B00A5E0B2 /* WVRAppContextHeader.h */,
+				32EBC84B1F3B404B00A5E0B2 /* WVRProgressHUD */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		32EBC8051F3B404B00A5E0B2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC8061F3B404B00A5E0B2 /* CAAnimation+Extension.h */,
+				32EBC8071F3B404B00A5E0B2 /* CAAnimation+Extension.m */,
+				32EBC8081F3B404B00A5E0B2 /* NSArray+Extend.h */,
+				32EBC8091F3B404B00A5E0B2 /* NSArray+Extend.m */,
+				32EBC80A1F3B404B00A5E0B2 /* NSDate+Extend.h */,
+				32EBC80B1F3B404B00A5E0B2 /* NSDate+Extend.m */,
+				32EBC80C1F3B404B00A5E0B2 /* NSDictionary+Extension.h */,
+				32EBC80D1F3B404B00A5E0B2 /* NSDictionary+Extension.m */,
+				32EBC80E1F3B404B00A5E0B2 /* NSString+Extend.h */,
+				32EBC80F1F3B404B00A5E0B2 /* NSString+Extend.m */,
+				32EBC8101F3B404B00A5E0B2 /* NSURL+Extend.h */,
+				32EBC8111F3B404B00A5E0B2 /* NSURL+Extend.m */,
+				32EBC8121F3B404B00A5E0B2 /* TPKeyboardAvoidingScrollView.h */,
+				32EBC8131F3B404B00A5E0B2 /* TPKeyboardAvoidingScrollView.m */,
+				32EBC8141F3B404B00A5E0B2 /* UIAlertController+Extend.h */,
+				32EBC8151F3B404B00A5E0B2 /* UIAlertController+Extend.m */,
+				32EBC8161F3B404B00A5E0B2 /* UIButton+Extends.h */,
+				32EBC8171F3B404B00A5E0B2 /* UIButton+Extends.m */,
+				32EBC8181F3B404B00A5E0B2 /* UIColor+Extend.h */,
+				32EBC8191F3B404B00A5E0B2 /* UIColor+Extend.m */,
+				32EBC81A1F3B404B00A5E0B2 /* UIImage+Extend.h */,
+				32EBC81B1F3B404B00A5E0B2 /* UIImage+Extend.m */,
+				32EBC81C1F3B404B00A5E0B2 /* UIImageView+CornerRadius.h */,
+				32EBC81D1F3B404B00A5E0B2 /* UIImageView+CornerRadius.m */,
+				32EBC81E1F3B404B00A5E0B2 /* UIImageView+Extend.h */,
+				32EBC81F1F3B404B00A5E0B2 /* UIImageView+Extend.m */,
+				32EBC8201F3B404B00A5E0B2 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				32EBC8211F3B404B00A5E0B2 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				32EBC8221F3B404B00A5E0B2 /* UIView+EasyLayout.h */,
+				32EBC8231F3B404B00A5E0B2 /* UIView+EasyLayout.m */,
+				32EBC8241F3B404B00A5E0B2 /* UIView+Extend.h */,
+				32EBC8251F3B404B00A5E0B2 /* UIView+Extend.m */,
+				32EBC8261F3B404B00A5E0B2 /* UIView+Shake.h */,
+				32EBC8271F3B404B00A5E0B2 /* UIView+Shake.m */,
+				32EBC8281F3B404B00A5E0B2 /* UIViewController+HUD.h */,
+				32EBC8291F3B404B00A5E0B2 /* UIViewController+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		32EBC82A1F3B404B00A5E0B2 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC82B1F3B404B00A5E0B2 /* WVRAppColorDefine.h */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		32EBC82C1F3B404B00A5E0B2 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC82D1F3B404B00A5E0B2 /* WVRAPIConst.h */,
+				32EBC82E1F3B404B00A5E0B2 /* WVRAPIConst.m */,
+				32EBC82F1F3B404B00A5E0B2 /* WVRAppConst.h */,
+				32EBC8321F3B404B00A5E0B2 /* WVRNotificationHeader.h */,
+				32EBC8331F3B404B00A5E0B2 /* WVRUIConst.h */,
+				32EBC8341F3B404B00A5E0B2 /* WVRUIConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		32EBC8351F3B404B00A5E0B2 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC8361F3B404B00A5E0B2 /* WVRAppDebugDefine.h */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		32EBC8371F3B404B00A5E0B2 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC8381F3B404B00A5E0B2 /* WVRAppDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		32EBC8391F3B404B00A5E0B2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC83A1F3B404B00A5E0B2 /* WVRAppFontDefine.h */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		32EBC83B1F3B404B00A5E0B2 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC83C1F3B404B00A5E0B2 /* WVRAppFrameDefine.h */,
+				32A27A291F5CFB89005C04A4 /* WVRFrameDefineHelper.h */,
+				32A27A2A1F5CFB89005C04A4 /* WVRFrameDefineHelper.m */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		32EBC83D1F3B404B00A5E0B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC83E1F3B404B00A5E0B2 /* WVRAppContext.h */,
+				32EBC83F1F3B404B00A5E0B2 /* WVRAppContext.m */,
+				32EBC8401F3B404B00A5E0B2 /* WVRAppModel.h */,
+				32EBC8411F3B404B00A5E0B2 /* WVRAppModel.m */,
+				32EBC8421F3B404B00A5E0B2 /* WVRDeviceModel.h */,
+				32EBC8431F3B404B00A5E0B2 /* WVRDeviceModel.m */,
+				32EBC8441F3B404B00A5E0B2 /* WVRReachabilityModel.h */,
+				32EBC8451F3B404B00A5E0B2 /* WVRReachabilityModel.m */,
+				32EBC8461F3B404B00A5E0B2 /* WVRUserModel.h */,
+				32EBC8471F3B404B00A5E0B2 /* WVRUserModel.m */,
+				3292EC671F3C55240054CC0A /* WVRContextModelsHeader.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		32EBC8481F3B404B00A5E0B2 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC8491F3B404B00A5E0B2 /* WVRAppStringDefine.h */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		32EBC84B1F3B404B00A5E0B2 /* WVRProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				32EBC84C1F3B404B00A5E0B2 /* WVRProgressHUD.h */,
+				32EBC84D1F3B404B00A5E0B2 /* WVRProgressHUD.m */,
+			);
+			path = WVRProgressHUD;
+			sourceTree = "<group>";
+		};
+		E3D08EE69AF4D4060560D4E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2808FE6ED3734F9D9EA2B5A8 /* libPods-WVRAppContext.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC4C575C46A664EE8CB14AE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62859D4669369F93173BE06F /* Pods-WVRAppContext.debug.xcconfig */,
+				96F4C688ED5BF8834AE5AB53 /* Pods-WVRAppContext.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		195361D91F14BC6B008B203E /* WVRAppContext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1953620A1F14BC6B008B203E /* Build configuration list for PBXNativeTarget "WVRAppContext" */;
+			buildPhases = (
+				92E3E75F4827636808060BE3 /* [CP] Check Pods Manifest.lock */,
+				195361D61F14BC6B008B203E /* Sources */,
+				195361D71F14BC6B008B203E /* Frameworks */,
+				195361D81F14BC6B008B203E /* Resources */,
+				D69488D9E26E0624353E3F3E /* [CP] Embed Pods Frameworks */,
+				81DB8560A47CB9D0ABC713D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WVRAppContext;
+			productName = WVRAppContext;
+			productReference = 195361DA1F14BC6B008B203E /* WVRAppContext.app */;
+			productType = "com.apple.product-type.application";
+		};
+		195361F51F14BC6B008B203E /* WVRAppContextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1953620D1F14BC6B008B203E /* Build configuration list for PBXNativeTarget "WVRAppContextTests" */;
+			buildPhases = (
+				195361F21F14BC6B008B203E /* Sources */,
+				195361F31F14BC6B008B203E /* Frameworks */,
+				195361F41F14BC6B008B203E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195361F81F14BC6B008B203E /* PBXTargetDependency */,
+			);
+			name = WVRAppContextTests;
+			productName = WVRAppContextTests;
+			productReference = 195361F61F14BC6B008B203E /* WVRAppContextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		195362001F14BC6B008B203E /* WVRAppContextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 195362101F14BC6B008B203E /* Build configuration list for PBXNativeTarget "WVRAppContextUITests" */;
+			buildPhases = (
+				195361FD1F14BC6B008B203E /* Sources */,
+				195361FE1F14BC6B008B203E /* Frameworks */,
+				195361FF1F14BC6B008B203E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				195362031F14BC6B008B203E /* PBXTargetDependency */,
+			);
+			name = WVRAppContextUITests;
+			productName = WVRAppContextUITests;
+			productReference = 195362011F14BC6B008B203E /* WVRAppContextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		195361D21F14BC6B008B203E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = WhaleyVR;
+				TargetAttributes = {
+					195361D91F14BC6B008B203E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+					};
+					195361F51F14BC6B008B203E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 195361D91F14BC6B008B203E;
+					};
+					195362001F14BC6B008B203E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 195361D91F14BC6B008B203E;
+					};
+				};
+			};
+			buildConfigurationList = 195361D51F14BC6B008B203E /* Build configuration list for PBXProject "WVRAppContext" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 195361D11F14BC6B008B203E;
+			productRefGroup = 195361DB1F14BC6B008B203E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				195361D91F14BC6B008B203E /* WVRAppContext */,
+				195361F51F14BC6B008B203E /* WVRAppContextTests */,
+				195362001F14BC6B008B203E /* WVRAppContextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195361D81F14BC6B008B203E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195361F01F14BC6B008B203E /* LaunchScreen.storyboard in Resources */,
+				195361ED1F14BC6B008B203E /* Assets.xcassets in Resources */,
+				195361E81F14BC6B008B203E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195361F41F14BC6B008B203E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195361FF1F14BC6B008B203E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81DB8560A47CB9D0ABC713D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WVRAppContext/Pods-WVRAppContext-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRAppContext/Pods-WVRAppContext-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E3E75F4827636808060BE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WVRAppContext-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D69488D9E26E0624353E3F3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRAppContext/Pods-WVRAppContext-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195361D61F14BC6B008B203E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32EBC8531F3B404B00A5E0B2 /* NSURL+Extend.m in Sources */,
+				195361E51F14BC6B008B203E /* ViewController.m in Sources */,
+				32EBC85C1F3B404B00A5E0B2 /* UIView+EasyLayout.m in Sources */,
+				32EBC8631F3B404B00A5E0B2 /* WVRAppContext.m in Sources */,
+				32EBC85A1F3B404B00A5E0B2 /* UIImageView+Extend.m in Sources */,
+				32EBC8581F3B404B00A5E0B2 /* UIImage+Extend.m in Sources */,
+				32A27A2B1F5CFB89005C04A4 /* WVRFrameDefineHelper.m in Sources */,
+				32EBC8671F3B404B00A5E0B2 /* WVRUserModel.m in Sources */,
+				32EBC84E1F3B404B00A5E0B2 /* CAAnimation+Extension.m in Sources */,
+				32EBC85F1F3B404B00A5E0B2 /* UIViewController+HUD.m in Sources */,
+				32EBC8521F3B404B00A5E0B2 /* NSString+Extend.m in Sources */,
+				32EBC8511F3B404B00A5E0B2 /* NSDictionary+Extension.m in Sources */,
+				32EBC8541F3B404B00A5E0B2 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				32EBC8681F3B404B00A5E0B2 /* WVRProgressHUD.m in Sources */,
+				32EBC8651F3B404B00A5E0B2 /* WVRDeviceModel.m in Sources */,
+				32EBC8561F3B404B00A5E0B2 /* UIButton+Extends.m in Sources */,
+				32EBC8501F3B404B00A5E0B2 /* NSDate+Extend.m in Sources */,
+				195361E21F14BC6B008B203E /* AppDelegate.m in Sources */,
+				195361DF1F14BC6B008B203E /* main.m in Sources */,
+				32EBC84F1F3B404B00A5E0B2 /* NSArray+Extend.m in Sources */,
+				32EBC8661F3B404B00A5E0B2 /* WVRReachabilityModel.m in Sources */,
+				32EBC85B1F3B404B00A5E0B2 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				32EBC85E1F3B404B00A5E0B2 /* UIView+Shake.m in Sources */,
+				32EBC8571F3B404B00A5E0B2 /* UIColor+Extend.m in Sources */,
+				32EBC8621F3B404B00A5E0B2 /* WVRUIConst.m in Sources */,
+				32EBC8601F3B404B00A5E0B2 /* WVRAPIConst.m in Sources */,
+				32EBC8591F3B404B00A5E0B2 /* UIImageView+CornerRadius.m in Sources */,
+				32EBC8551F3B404B00A5E0B2 /* UIAlertController+Extend.m in Sources */,
+				32EBC8641F3B404B00A5E0B2 /* WVRAppModel.m in Sources */,
+				32EBC85D1F3B404B00A5E0B2 /* UIView+Extend.m in Sources */,
+				195361EB1F14BC6B008B203E /* WVRAppContext.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195361F21F14BC6B008B203E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195361FB1F14BC6B008B203E /* WVRAppContextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		195361FD1F14BC6B008B203E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195362061F14BC6B008B203E /* WVRAppContextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		195361F81F14BC6B008B203E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195361D91F14BC6B008B203E /* WVRAppContext */;
+			targetProxy = 195361F71F14BC6B008B203E /* PBXContainerItemProxy */;
+		};
+		195362031F14BC6B008B203E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 195361D91F14BC6B008B203E /* WVRAppContext */;
+			targetProxy = 195362021F14BC6B008B203E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		195361E61F14BC6B008B203E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195361E71F14BC6B008B203E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		195361EE1F14BC6B008B203E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				195361EF1F14BC6B008B203E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		195362081F14BC6B008B203E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		195362091F14BC6B008B203E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1953620B1F14BC6B008B203E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62859D4669369F93173BE06F /* Pods-WVRAppContext.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRAppContext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRAppContext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1953620C1F14BC6B008B203E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F4C688ED5BF8834AE5AB53 /* Pods-WVRAppContext.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRAppContext/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRAppContext;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1953620E1F14BC6B008B203E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRAppContextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRAppContextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRAppContext.app/WVRAppContext";
+			};
+			name = Debug;
+		};
+		1953620F1F14BC6B008B203E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRAppContextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRAppContextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRAppContext.app/WVRAppContext";
+			};
+			name = Release;
+		};
+		195362111F14BC6B008B203E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRAppContextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRAppContextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRAppContext;
+			};
+			name = Debug;
+		};
+		195362121F14BC6B008B203E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRAppContextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRAppContextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRAppContext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		195361D51F14BC6B008B203E /* Build configuration list for PBXProject "WVRAppContext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195362081F14BC6B008B203E /* Debug */,
+				195362091F14BC6B008B203E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1953620A1F14BC6B008B203E /* Build configuration list for PBXNativeTarget "WVRAppContext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1953620B1F14BC6B008B203E /* Debug */,
+				1953620C1F14BC6B008B203E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1953620D1F14BC6B008B203E /* Build configuration list for PBXNativeTarget "WVRAppContextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1953620E1F14BC6B008B203E /* Debug */,
+				1953620F1F14BC6B008B203E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		195362101F14BC6B008B203E /* Build configuration list for PBXNativeTarget "WVRAppContextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				195362111F14BC6B008B203E /* Debug */,
+				195362121F14BC6B008B203E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		195361E91F14BC6B008B203E /* WVRAppContext.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				195361EA1F14BC6B008B203E /* WVRAppContext.xcdatamodel */,
+			);
+			currentVersion = 195361EA1F14BC6B008B203E /* WVRAppContext.xcdatamodel */;
+			path = WVRAppContext.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 195361D21F14BC6B008B203E /* Project object */;
+}
