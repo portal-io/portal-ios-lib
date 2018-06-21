@@ -93,6 +93,10 @@ Pod::Spec.new do |s|
 
   s.subspec 'WVRAppContext' do |cur|
   cur.source_files = 'WVRAppContext/WVRAppContext/Core/**/*.{h,m}'
+  cur.dependency "Toast", "~> 3.0"
+  cur.dependency "CocoaLumberjack", "~> 3.2.0"
+  cur.dependency "SAMKeychain", "~> 1.5"
+  cur.dependency "Reachability", "~> 3.2"
   end
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
@@ -138,17 +142,19 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-  s.dependency "Toast", "~> 3.0"
-  s.dependency "CocoaLumberjack", "~> 3.2.0"
-  s.dependency "SAMKeychain", "~> 1.5"
-  s.dependency "Reachability", "~> 3.2"
-
+  
   s.subspec 'WVRNet' do |cur|
   cur.source_files = 'WVRNet/WVRNet/WVRNetworking/**/*.{h,m}'
 
-  s.dependency 'AFNetworking'
-  s.dependency 'YYModel'
-  s.dependency 'ReactiveObjC'
+  cur.dependency 'AFNetworking'
+  cur.dependency 'YYModel'
+  cur.dependency 'ReactiveObjC'
+  end
+  s.subspec 'WVRUtil' do |cur|
+  cur.source_files = ['WVRUtil/WVRUtil/Classes/**/*.{h,m}', 'WVRUtil/WVRUtil/Classes/*.h']
+  cur.resources = ['WVRUtil/WVRUtil/Classes/nation.db']
+  cur.dependency 'FMDB'
+  cur.dependency 'CocoaHTTPServer'
 
   end
 
