@@ -1,6 +1,13 @@
 .DS_Store
 WVRAppContext/.DS_Store
+WVRAppContext/WVRAppContext.xcodeproj/project.xcworkspace/xcuserdata/land.xcuserdatad/
+WVRAppContext/WVRAppContext.xcodeproj/xcuserdata/land.xcuserdatad/
 WVRAppContext/WVRAppContext/.DS_Store
 WVRNet/DerivedData/
 WVRNet/.DS_Store
 WVRNet/WVRNet/.DS_Store
+WVRNet/Podfile.lock
+WVRNet/Pods/
+WVRNet/WVRNet.xcodeproj/project.xcworkspace/xcuserdata/land.xcuserdatad/
+WVRNet/WVRNet.xcodeproj/xcuserdata/land.xcuserdatad/
+WVRNet/WVRNet.xcworkspace/

@@ -17,8 +17,8 @@
 		A18A8F1C1F42DB57001817D7 /* WVRRequestOptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A8F101F42DB57001817D7 /* WVRRequestOptManager.m */; };
 		A18A8F1D1F42DB57001817D7 /* WVRRequestPage.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A8F121F42DB57001817D7 /* WVRRequestPage.m */; };
 		A18A8F1E1F42DB57001817D7 /* WVRAPIHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = A18A8F161F42DB57001817D7 /* WVRAPIHandle.m */; };
-		A1B066701F44236A009BF530 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A18A8F011F42D6B0001817D7 /* SocketIO.framework */; };
-		A1B066711F44236A009BF530 /* SocketIO.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A18A8F011F42D6B0001817D7 /* SocketIO.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1B066701F44236A009BF530 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		A1B066711F44236A009BF530 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1B840AC1EB8373E007CA26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B840AB1EB8373E007CA26C /* main.m */; };
 		A1B840AF1EB8373E007CA26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B840AE1EB8373E007CA26C /* AppDelegate.m */; };
 		A1B840B21EB8373E007CA26C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B840B11EB8373E007CA26C /* ViewController.m */; };
@@ -75,7 +75,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A1B066711F44236A009BF530 /* SocketIO.framework in Embed Frameworks */,
+				A1B066711F44236A009BF530 /* BuildFile in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +187,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B066701F44236A009BF530 /* SocketIO.framework in Frameworks */,
+				A1B066701F44236A009BF530 /* BuildFile in Frameworks */,
 				C578E9E1D79727AA9BBD0074 /* libPods-WVRNet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -653,13 +653,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WVRNet-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B21E1888B0DC7DDF74D2AE4C /* [CP] Embed Pods Frameworks */ = {
