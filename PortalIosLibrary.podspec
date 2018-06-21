@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PortalIosLibrary"
-  s.version      = "0.0.5"
+  s.version      = "0.0.7"
   s.summary      = "for portal-ios project."
 
   # This description is used to generate tags and improve search results.
@@ -150,12 +150,23 @@ Pod::Spec.new do |s|
   cur.dependency 'YYModel'
   cur.dependency 'ReactiveObjC'
   end
+
   s.subspec 'WVRUtil' do |cur|
   cur.source_files = ['WVRUtil/WVRUtil/Classes/**/*.{h,m}', 'WVRUtil/WVRUtil/Classes/*.h']
   cur.resources = ['WVRUtil/WVRUtil/Classes/nation.db']
+  
   cur.dependency 'FMDB'
   cur.dependency 'CocoaHTTPServer'
-
   end
 
+  s.subspec 'WVRPlayer' do |cur|
+  cur.source_files = ['WVRPlayer/WVRPlayer/Classes/**/*.{h,m}']
+
+  cur.vendored_frameworks = ['WVRPlayer/WVRPlayer/Classes/Player/WhaleyVRPlayer.framework']
+  cur.resources = ['WVRPlayer/WVRPlayer/Classes/Player/WVRPlayerBundle.bundle']
+  
+  cur.dependency 'WVRBI'
+  cur.dependency 'WVRParser'
+  cur.dependency 'WVRAppContext'
+  end
 end

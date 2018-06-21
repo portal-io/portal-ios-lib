@@ -1,0 +1,14 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, "9.0"
+
+
+target 'WVRUtil' do
+    
+    pod 'FMDB'
+    pod 'CocoaHTTPServer'
+    
+end
+
+
+
