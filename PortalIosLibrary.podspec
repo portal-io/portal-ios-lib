@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PortalIosLibrary"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "for portal-ios project."
 
   # This description is used to generate tags and improve search results.
@@ -142,5 +142,14 @@ Pod::Spec.new do |s|
   s.dependency "CocoaLumberjack", "~> 3.2.0"
   s.dependency "SAMKeychain", "~> 1.5"
   s.dependency "Reachability", "~> 3.2"
+
+  s.subspec 'WVRNet' do |cur|
+  cur.source_files = 'WVRNet/WVRNet/WVRNetworking/**/*.{h,m}'
+
+  s.dependency 'AFNetworking'
+  s.dependency 'YYModel'
+  s.dependency 'ReactiveObjC'
+
+  end
 
 end
