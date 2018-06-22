@@ -1,0 +1,19 @@
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-lib/WVRPodSpecs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-midware/WVRPodSpecs.git'
+platform :ios, "9.0"
+
+
+target 'WVRShare' do
+    
+    pod 'UMengUShare/UI',             '~> 6.4.5'
+    pod 'UMengUShare/Social/Sina',    '~> 6.4.5'
+    pod 'UMengUShare/Social/WeChat',  '~> 6.4.5'
+    pod 'UMengUShare/Social/QQ',      '~> 6.4.5'
+    pod 'WVRBI',					  '~> 0.0.1'
+    pod 'WVRAppContext',              '~> 0.1.3'
+    pod 'WVRWidget',                  '~> 0.3.0'
+
+end
+

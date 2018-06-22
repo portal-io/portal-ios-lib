@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SocketIO.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>WVRSocketIO.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A1A405E71F6FA70300A13BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1A405FB1F6FA70400A13BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1A406061F6FA70400A13BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1A4064E1F6FAC9F00A13BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1A406561F6FAC9F00A13BFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

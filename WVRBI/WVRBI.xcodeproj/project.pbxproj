@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3236A4C41F36DAC8005DFDA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4C31F36DAC8005DFDA8 /* main.m */; };
+		3236A4C71F36DAC8005DFDA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4C61F36DAC8005DFDA8 /* AppDelegate.m */; };
+		3236A4CA1F36DAC8005DFDA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4C91F36DAC8005DFDA8 /* ViewController.m */; };
+		3236A4CD1F36DAC8005DFDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236A4CB1F36DAC8005DFDA8 /* Main.storyboard */; };
+		3236A4CF1F36DAC8005DFDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236A4CE1F36DAC8005DFDA8 /* Assets.xcassets */; };
+		3236A4D21F36DAC8005DFDA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236A4D01F36DAC8005DFDA8 /* LaunchScreen.storyboard */; };
+		3236A4DD1F36DAC8005DFDA8 /* WVRBITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4DC1F36DAC8005DFDA8 /* WVRBITests.m */; };
+		3236A4E81F36DAC8005DFDA8 /* WVRBIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4E71F36DAC8005DFDA8 /* WVRBIUITests.m */; };
+		3236A4FF1F36DC76005DFDA8 /* WVRBIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4F81F36DC76005DFDA8 /* WVRBIManager.m */; };
+		3236A5001F36DC76005DFDA8 /* WVRBIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4FB1F36DC76005DFDA8 /* WVRBIModel.m */; };
+		3236A5011F36DC76005DFDA8 /* WVRTrackEventMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A4FE1F36DC76005DFDA8 /* WVRTrackEventMapping.m */; };
+		4AB6A81382ADE9BB01074A47 /* libPods-WVRBI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0BE42067A2EB1FDB7E80AD /* libPods-WVRBI.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3236A4D91F36DAC8005DFDA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236A4B71F36DAC8005DFDA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3236A4BE1F36DAC8005DFDA8;
+			remoteInfo = WVRBI;
+		};
+		3236A4E41F36DAC8005DFDA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236A4B71F36DAC8005DFDA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3236A4BE1F36DAC8005DFDA8;
+			remoteInfo = WVRBI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3236A4BF1F36DAC8005DFDA8 /* WVRBI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WVRBI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236A4C31F36DAC8005DFDA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3236A4C51F36DAC8005DFDA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3236A4C61F36DAC8005DFDA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3236A4C81F36DAC8005DFDA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3236A4C91F36DAC8005DFDA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3236A4CC1F36DAC8005DFDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3236A4CE1F36DAC8005DFDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3236A4D11F36DAC8005DFDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3236A4D31F36DAC8005DFDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3236A4D81F36DAC8005DFDA8 /* WVRBITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRBITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236A4DC1F36DAC8005DFDA8 /* WVRBITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRBITests.m; sourceTree = "<group>"; };
+		3236A4DE1F36DAC8005DFDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3236A4E31F36DAC8005DFDA8 /* WVRBIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRBIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236A4E71F36DAC8005DFDA8 /* WVRBIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRBIUITests.m; sourceTree = "<group>"; };
+		3236A4E91F36DAC8005DFDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3236A4F71F36DC76005DFDA8 /* WVRBIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRBIManager.h; sourceTree = "<group>"; };
+		3236A4F81F36DC76005DFDA8 /* WVRBIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRBIManager.m; sourceTree = "<group>"; };
+		3236A4FA1F36DC76005DFDA8 /* WVRBIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRBIModel.h; sourceTree = "<group>"; };
+		3236A4FB1F36DC76005DFDA8 /* WVRBIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRBIModel.m; sourceTree = "<group>"; };
+		3236A4FD1F36DC76005DFDA8 /* WVRTrackEventMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRTrackEventMapping.h; sourceTree = "<group>"; };
+		3236A4FE1F36DC76005DFDA8 /* WVRTrackEventMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRTrackEventMapping.m; sourceTree = "<group>"; };
+		39439B83CEC203F446EE0DCD /* Pods-WVRBI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRBI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WVRBI/Pods-WVRBI.debug.xcconfig"; sourceTree = "<group>"; };
+		3B949D9FCF384B4EA94D0311 /* Pods-WVRBI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRBI.release.xcconfig"; path = "Pods/Target Support Files/Pods-WVRBI/Pods-WVRBI.release.xcconfig"; sourceTree = "<group>"; };
+		DA0BE42067A2EB1FDB7E80AD /* libPods-WVRBI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WVRBI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3236A4BC1F36DAC8005DFDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB6A81382ADE9BB01074A47 /* libPods-WVRBI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A4D51F36DAC8005DFDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A4E01F36DAC8005DFDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3236A4B61F36DAC8005DFDA8 = {
+			isa = PBXGroup;
+			children = (
+				3236A4C11F36DAC8005DFDA8 /* WVRBI */,
+				3236A4DB1F36DAC8005DFDA8 /* WVRBITests */,
+				3236A4E61F36DAC8005DFDA8 /* WVRBIUITests */,
+				3236A4C01F36DAC8005DFDA8 /* Products */,
+				909EF8F9888175723FF4C1F2 /* Pods */,
+				EEBBBD11DF94C9AD6ECFCFBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3236A4C01F36DAC8005DFDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4BF1F36DAC8005DFDA8 /* WVRBI.app */,
+				3236A4D81F36DAC8005DFDA8 /* WVRBITests.xctest */,
+				3236A4E31F36DAC8005DFDA8 /* WVRBIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3236A4C11F36DAC8005DFDA8 /* WVRBI */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4F51F36DC76005DFDA8 /* Classes */,
+				3236A4C51F36DAC8005DFDA8 /* AppDelegate.h */,
+				3236A4C61F36DAC8005DFDA8 /* AppDelegate.m */,
+				3236A4C81F36DAC8005DFDA8 /* ViewController.h */,
+				3236A4C91F36DAC8005DFDA8 /* ViewController.m */,
+				3236A4CB1F36DAC8005DFDA8 /* Main.storyboard */,
+				3236A4CE1F36DAC8005DFDA8 /* Assets.xcassets */,
+				3236A4D01F36DAC8005DFDA8 /* LaunchScreen.storyboard */,
+				3236A4D31F36DAC8005DFDA8 /* Info.plist */,
+				3236A4C21F36DAC8005DFDA8 /* Supporting Files */,
+			);
+			path = WVRBI;
+			sourceTree = "<group>";
+		};
+		3236A4C21F36DAC8005DFDA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4C31F36DAC8005DFDA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3236A4DB1F36DAC8005DFDA8 /* WVRBITests */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4DC1F36DAC8005DFDA8 /* WVRBITests.m */,
+				3236A4DE1F36DAC8005DFDA8 /* Info.plist */,
+			);
+			path = WVRBITests;
+			sourceTree = "<group>";
+		};
+		3236A4E61F36DAC8005DFDA8 /* WVRBIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4E71F36DAC8005DFDA8 /* WVRBIUITests.m */,
+				3236A4E91F36DAC8005DFDA8 /* Info.plist */,
+			);
+			path = WVRBIUITests;
+			sourceTree = "<group>";
+		};
+		3236A4F51F36DC76005DFDA8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4F61F36DC76005DFDA8 /* Manager */,
+				3236A4F91F36DC76005DFDA8 /* Model */,
+				3236A4FC1F36DC76005DFDA8 /* UMClick */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3236A4F61F36DC76005DFDA8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4F71F36DC76005DFDA8 /* WVRBIManager.h */,
+				3236A4F81F36DC76005DFDA8 /* WVRBIManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3236A4F91F36DC76005DFDA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4FA1F36DC76005DFDA8 /* WVRBIModel.h */,
+				3236A4FB1F36DC76005DFDA8 /* WVRBIModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3236A4FC1F36DC76005DFDA8 /* UMClick */ = {
+			isa = PBXGroup;
+			children = (
+				3236A4FD1F36DC76005DFDA8 /* WVRTrackEventMapping.h */,
+				3236A4FE1F36DC76005DFDA8 /* WVRTrackEventMapping.m */,
+			);
+			path = UMClick;
+			sourceTree = "<group>";
+		};
+		909EF8F9888175723FF4C1F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39439B83CEC203F446EE0DCD /* Pods-WVRBI.debug.xcconfig */,
+				3B949D9FCF384B4EA94D0311 /* Pods-WVRBI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEBBBD11DF94C9AD6ECFCFBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0BE42067A2EB1FDB7E80AD /* libPods-WVRBI.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3236A4BE1F36DAC8005DFDA8 /* WVRBI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236A4EC1F36DAC8005DFDA8 /* Build configuration list for PBXNativeTarget "WVRBI" */;
+			buildPhases = (
+				974F5624E93EB9E86C913893 /* [CP] Check Pods Manifest.lock */,
+				3236A4BB1F36DAC8005DFDA8 /* Sources */,
+				3236A4BC1F36DAC8005DFDA8 /* Frameworks */,
+				3236A4BD1F36DAC8005DFDA8 /* Resources */,
+				7B97FD5E84BD9DA491513944 /* [CP] Embed Pods Frameworks */,
+				49DAE2297D73B13964F31E18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WVRBI;
+			productName = WVRBI;
+			productReference = 3236A4BF1F36DAC8005DFDA8 /* WVRBI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3236A4D71F36DAC8005DFDA8 /* WVRBITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236A4EF1F36DAC8005DFDA8 /* Build configuration list for PBXNativeTarget "WVRBITests" */;
+			buildPhases = (
+				3236A4D41F36DAC8005DFDA8 /* Sources */,
+				3236A4D51F36DAC8005DFDA8 /* Frameworks */,
+				3236A4D61F36DAC8005DFDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3236A4DA1F36DAC8005DFDA8 /* PBXTargetDependency */,
+			);
+			name = WVRBITests;
+			productName = WVRBITests;
+			productReference = 3236A4D81F36DAC8005DFDA8 /* WVRBITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3236A4E21F36DAC8005DFDA8 /* WVRBIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236A4F21F36DAC8005DFDA8 /* Build configuration list for PBXNativeTarget "WVRBIUITests" */;
+			buildPhases = (
+				3236A4DF1F36DAC8005DFDA8 /* Sources */,
+				3236A4E01F36DAC8005DFDA8 /* Frameworks */,
+				3236A4E11F36DAC8005DFDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3236A4E51F36DAC8005DFDA8 /* PBXTargetDependency */,
+			);
+			name = WVRBIUITests;
+			productName = WVRBIUITests;
+			productReference = 3236A4E31F36DAC8005DFDA8 /* WVRBIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3236A4B71F36DAC8005DFDA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = snailvr;
+				TargetAttributes = {
+					3236A4BE1F36DAC8005DFDA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+					};
+					3236A4D71F36DAC8005DFDA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3236A4BE1F36DAC8005DFDA8;
+					};
+					3236A4E21F36DAC8005DFDA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3236A4BE1F36DAC8005DFDA8;
+					};
+				};
+			};
+			buildConfigurationList = 3236A4BA1F36DAC8005DFDA8 /* Build configuration list for PBXProject "WVRBI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3236A4B61F36DAC8005DFDA8;
+			productRefGroup = 3236A4C01F36DAC8005DFDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3236A4BE1F36DAC8005DFDA8 /* WVRBI */,
+				3236A4D71F36DAC8005DFDA8 /* WVRBITests */,
+				3236A4E21F36DAC8005DFDA8 /* WVRBIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3236A4BD1F36DAC8005DFDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236A4D21F36DAC8005DFDA8 /* LaunchScreen.storyboard in Resources */,
+				3236A4CF1F36DAC8005DFDA8 /* Assets.xcassets in Resources */,
+				3236A4CD1F36DAC8005DFDA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A4D61F36DAC8005DFDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A4E11F36DAC8005DFDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49DAE2297D73B13964F31E18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WVRBI/Pods-WVRBI-resources.sh",
+				"${PODS_ROOT}/SAMKeychain/Support/SAMKeychain.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRBI/Pods-WVRBI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B97FD5E84BD9DA491513944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRBI/Pods-WVRBI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974F5624E93EB9E86C913893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WVRBI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3236A4BB1F36DAC8005DFDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236A5001F36DC76005DFDA8 /* WVRBIModel.m in Sources */,
+				3236A4CA1F36DAC8005DFDA8 /* ViewController.m in Sources */,
+				3236A4C71F36DAC8005DFDA8 /* AppDelegate.m in Sources */,
+				3236A4FF1F36DC76005DFDA8 /* WVRBIManager.m in Sources */,
+				3236A4C41F36DAC8005DFDA8 /* main.m in Sources */,
+				3236A5011F36DC76005DFDA8 /* WVRTrackEventMapping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A4D41F36DAC8005DFDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236A4DD1F36DAC8005DFDA8 /* WVRBITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A4DF1F36DAC8005DFDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236A4E81F36DAC8005DFDA8 /* WVRBIUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3236A4DA1F36DAC8005DFDA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3236A4BE1F36DAC8005DFDA8 /* WVRBI */;
+			targetProxy = 3236A4D91F36DAC8005DFDA8 /* PBXContainerItemProxy */;
+		};
+		3236A4E51F36DAC8005DFDA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3236A4BE1F36DAC8005DFDA8 /* WVRBI */;
+			targetProxy = 3236A4E41F36DAC8005DFDA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3236A4CB1F36DAC8005DFDA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236A4CC1F36DAC8005DFDA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3236A4D01F36DAC8005DFDA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236A4D11F36DAC8005DFDA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3236A4EA1F36DAC8005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3236A4EB1F36DAC8005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3236A4ED1F36DAC8005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39439B83CEC203F446EE0DCD /* Pods-WVRBI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRBI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRBI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3236A4EE1F36DAC8005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B949D9FCF384B4EA94D0311 /* Pods-WVRBI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRBI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRBI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3236A4F01F36DAC8005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRBITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRBITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRBI.app/WVRBI";
+			};
+			name = Debug;
+		};
+		3236A4F11F36DAC8005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRBITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRBITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRBI.app/WVRBI";
+			};
+			name = Release;
+		};
+		3236A4F31F36DAC8005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRBIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRBIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRBI;
+			};
+			name = Debug;
+		};
+		3236A4F41F36DAC8005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRBIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRBIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRBI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3236A4BA1F36DAC8005DFDA8 /* Build configuration list for PBXProject "WVRBI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A4EA1F36DAC8005DFDA8 /* Debug */,
+				3236A4EB1F36DAC8005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236A4EC1F36DAC8005DFDA8 /* Build configuration list for PBXNativeTarget "WVRBI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A4ED1F36DAC8005DFDA8 /* Debug */,
+				3236A4EE1F36DAC8005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236A4EF1F36DAC8005DFDA8 /* Build configuration list for PBXNativeTarget "WVRBITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A4F01F36DAC8005DFDA8 /* Debug */,
+				3236A4F11F36DAC8005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236A4F21F36DAC8005DFDA8 /* Build configuration list for PBXNativeTarget "WVRBIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A4F31F36DAC8005DFDA8 /* Debug */,
+				3236A4F41F36DAC8005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3236A4B71F36DAC8005DFDA8 /* Project object */;
+}

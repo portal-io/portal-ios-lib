@@ -1,0 +1,14 @@
+#use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-midware/WVRPodSpecs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-lib/WVRPodSpecs.git'
+source 'https://git.moretv.cn/whaley-vr-ios-biz/WVRPodSpecs.git'
+platform :ios, "9.0"
+inhibit_all_warnings!
+
+target 'WVRNetModel' do
+    pod 'YYModel',	'~> 1.0'
+    pod 'LKDBHelper',                   '~> 2.4'
+    pod 'WVRUtil',                      '~> 0.0.1'
+end
+

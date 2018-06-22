@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3236A5101F380CDC005DFDA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A50F1F380CDC005DFDA8 /* main.m */; };
+		3236A5131F380CDC005DFDA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A5121F380CDC005DFDA8 /* AppDelegate.m */; };
+		3236A5161F380CDC005DFDA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A5151F380CDC005DFDA8 /* ViewController.m */; };
+		3236A5191F380CDC005DFDA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236A5171F380CDC005DFDA8 /* Main.storyboard */; };
+		3236A51B1F380CDC005DFDA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3236A51A1F380CDC005DFDA8 /* Assets.xcassets */; };
+		3236A51E1F380CDC005DFDA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3236A51C1F380CDC005DFDA8 /* LaunchScreen.storyboard */; };
+		3236A5291F380CDC005DFDA8 /* WVRCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A5281F380CDC005DFDA8 /* WVRCacheTests.m */; };
+		3236A5341F380CDC005DFDA8 /* WVRCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236A5331F380CDC005DFDA8 /* WVRCacheUITests.m */; };
+		32581D741F3814C200680594 /* NSURLSession+CorrectedResumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 32581D6A1F3814C200680594 /* NSURLSession+CorrectedResumeData.m */; };
+		32581D751F3814C200680594 /* SQDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 32581D6C1F3814C200680594 /* SQDownload.m */; };
+		32581D761F3814C200680594 /* SQDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32581D6E1F3814C200680594 /* SQDownloadManager.m */; };
+		32581D771F3814C200680594 /* SQDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 32581D701F3814C200680594 /* SQDownloadOperation.m */; };
+		32581D781F3814C200680594 /* WVRSQLiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32581D731F3814C200680594 /* WVRSQLiteManager.m */; };
+		815D55CD55D95CB2AED41E41 /* libPods-WVRCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC149170D562FB32AA697B47 /* libPods-WVRCache.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3236A5251F380CDC005DFDA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236A5031F380CDC005DFDA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3236A50A1F380CDC005DFDA8;
+			remoteInfo = WVRCache;
+		};
+		3236A5301F380CDC005DFDA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3236A5031F380CDC005DFDA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3236A50A1F380CDC005DFDA8;
+			remoteInfo = WVRCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3236A50B1F380CDC005DFDA8 /* WVRCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WVRCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236A50F1F380CDC005DFDA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3236A5111F380CDC005DFDA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3236A5121F380CDC005DFDA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3236A5141F380CDC005DFDA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3236A5151F380CDC005DFDA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3236A5181F380CDC005DFDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3236A51A1F380CDC005DFDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3236A51D1F380CDC005DFDA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3236A51F1F380CDC005DFDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3236A5241F380CDC005DFDA8 /* WVRCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236A5281F380CDC005DFDA8 /* WVRCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRCacheTests.m; sourceTree = "<group>"; };
+		3236A52A1F380CDC005DFDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3236A52F1F380CDC005DFDA8 /* WVRCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WVRCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3236A5331F380CDC005DFDA8 /* WVRCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WVRCacheUITests.m; sourceTree = "<group>"; };
+		3236A5351F380CDC005DFDA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32581D691F3814C200680594 /* NSURLSession+CorrectedResumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+CorrectedResumeData.h"; sourceTree = "<group>"; };
+		32581D6A1F3814C200680594 /* NSURLSession+CorrectedResumeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+CorrectedResumeData.m"; sourceTree = "<group>"; };
+		32581D6B1F3814C200680594 /* SQDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDownload.h; sourceTree = "<group>"; };
+		32581D6C1F3814C200680594 /* SQDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDownload.m; sourceTree = "<group>"; };
+		32581D6D1F3814C200680594 /* SQDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDownloadManager.h; sourceTree = "<group>"; };
+		32581D6E1F3814C200680594 /* SQDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDownloadManager.m; sourceTree = "<group>"; };
+		32581D6F1F3814C200680594 /* SQDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDownloadOperation.h; sourceTree = "<group>"; };
+		32581D701F3814C200680594 /* SQDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDownloadOperation.m; sourceTree = "<group>"; };
+		32581D721F3814C200680594 /* WVRSQLiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WVRSQLiteManager.h; sourceTree = "<group>"; };
+		32581D731F3814C200680594 /* WVRSQLiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WVRSQLiteManager.m; sourceTree = "<group>"; };
+		A4B1C3C7A24F59E56731268D /* Pods-WVRCache.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRCache.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WVRCache/Pods-WVRCache.debug.xcconfig"; sourceTree = "<group>"; };
+		B395812D478E1028C62B6B4A /* Pods-WVRCache.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WVRCache.release.xcconfig"; path = "Pods/Target Support Files/Pods-WVRCache/Pods-WVRCache.release.xcconfig"; sourceTree = "<group>"; };
+		FC149170D562FB32AA697B47 /* libPods-WVRCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WVRCache.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3236A5081F380CDC005DFDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				815D55CD55D95CB2AED41E41 /* libPods-WVRCache.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A5211F380CDC005DFDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A52C1F380CDC005DFDA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3236A5021F380CDC005DFDA8 = {
+			isa = PBXGroup;
+			children = (
+				3236A50D1F380CDC005DFDA8 /* WVRCache */,
+				3236A5271F380CDC005DFDA8 /* WVRCacheTests */,
+				3236A5321F380CDC005DFDA8 /* WVRCacheUITests */,
+				3236A50C1F380CDC005DFDA8 /* Products */,
+				CD417ADAEF81ED0856C697DD /* Pods */,
+				A2693ED9B0926ADED4271E98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3236A50C1F380CDC005DFDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3236A50B1F380CDC005DFDA8 /* WVRCache.app */,
+				3236A5241F380CDC005DFDA8 /* WVRCacheTests.xctest */,
+				3236A52F1F380CDC005DFDA8 /* WVRCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3236A50D1F380CDC005DFDA8 /* WVRCache */ = {
+			isa = PBXGroup;
+			children = (
+				32581D671F3814C200680594 /* Classes */,
+				3236A5111F380CDC005DFDA8 /* AppDelegate.h */,
+				3236A5121F380CDC005DFDA8 /* AppDelegate.m */,
+				3236A5141F380CDC005DFDA8 /* ViewController.h */,
+				3236A5151F380CDC005DFDA8 /* ViewController.m */,
+				3236A5171F380CDC005DFDA8 /* Main.storyboard */,
+				3236A51A1F380CDC005DFDA8 /* Assets.xcassets */,
+				3236A51C1F380CDC005DFDA8 /* LaunchScreen.storyboard */,
+				3236A51F1F380CDC005DFDA8 /* Info.plist */,
+				3236A50E1F380CDC005DFDA8 /* Supporting Files */,
+			);
+			path = WVRCache;
+			sourceTree = "<group>";
+		};
+		3236A50E1F380CDC005DFDA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3236A50F1F380CDC005DFDA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3236A5271F380CDC005DFDA8 /* WVRCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				3236A5281F380CDC005DFDA8 /* WVRCacheTests.m */,
+				3236A52A1F380CDC005DFDA8 /* Info.plist */,
+			);
+			path = WVRCacheTests;
+			sourceTree = "<group>";
+		};
+		3236A5321F380CDC005DFDA8 /* WVRCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3236A5331F380CDC005DFDA8 /* WVRCacheUITests.m */,
+				3236A5351F380CDC005DFDA8 /* Info.plist */,
+			);
+			path = WVRCacheUITests;
+			sourceTree = "<group>";
+		};
+		32581D671F3814C200680594 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32581D681F3814C200680594 /* WVRSQDownManager */,
+				32581D711F3814C200680594 /* WVRSQLiteManager */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32581D681F3814C200680594 /* WVRSQDownManager */ = {
+			isa = PBXGroup;
+			children = (
+				32581D691F3814C200680594 /* NSURLSession+CorrectedResumeData.h */,
+				32581D6A1F3814C200680594 /* NSURLSession+CorrectedResumeData.m */,
+				32581D6B1F3814C200680594 /* SQDownload.h */,
+				32581D6C1F3814C200680594 /* SQDownload.m */,
+				32581D6D1F3814C200680594 /* SQDownloadManager.h */,
+				32581D6E1F3814C200680594 /* SQDownloadManager.m */,
+				32581D6F1F3814C200680594 /* SQDownloadOperation.h */,
+				32581D701F3814C200680594 /* SQDownloadOperation.m */,
+			);
+			path = WVRSQDownManager;
+			sourceTree = "<group>";
+		};
+		32581D711F3814C200680594 /* WVRSQLiteManager */ = {
+			isa = PBXGroup;
+			children = (
+				32581D721F3814C200680594 /* WVRSQLiteManager.h */,
+				32581D731F3814C200680594 /* WVRSQLiteManager.m */,
+			);
+			path = WVRSQLiteManager;
+			sourceTree = "<group>";
+		};
+		A2693ED9B0926ADED4271E98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC149170D562FB32AA697B47 /* libPods-WVRCache.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD417ADAEF81ED0856C697DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B1C3C7A24F59E56731268D /* Pods-WVRCache.debug.xcconfig */,
+				B395812D478E1028C62B6B4A /* Pods-WVRCache.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3236A50A1F380CDC005DFDA8 /* WVRCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236A5381F380CDC005DFDA8 /* Build configuration list for PBXNativeTarget "WVRCache" */;
+			buildPhases = (
+				EEBB3EB3D95DC46042725286 /* [CP] Check Pods Manifest.lock */,
+				3236A5071F380CDC005DFDA8 /* Sources */,
+				3236A5081F380CDC005DFDA8 /* Frameworks */,
+				3236A5091F380CDC005DFDA8 /* Resources */,
+				7B6AE13770F0698222BE07F9 /* [CP] Embed Pods Frameworks */,
+				BFCB36043BF3B36371EA17F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WVRCache;
+			productName = WVRCache;
+			productReference = 3236A50B1F380CDC005DFDA8 /* WVRCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3236A5231F380CDC005DFDA8 /* WVRCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236A53B1F380CDC005DFDA8 /* Build configuration list for PBXNativeTarget "WVRCacheTests" */;
+			buildPhases = (
+				3236A5201F380CDC005DFDA8 /* Sources */,
+				3236A5211F380CDC005DFDA8 /* Frameworks */,
+				3236A5221F380CDC005DFDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3236A5261F380CDC005DFDA8 /* PBXTargetDependency */,
+			);
+			name = WVRCacheTests;
+			productName = WVRCacheTests;
+			productReference = 3236A5241F380CDC005DFDA8 /* WVRCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3236A52E1F380CDC005DFDA8 /* WVRCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3236A53E1F380CDC005DFDA8 /* Build configuration list for PBXNativeTarget "WVRCacheUITests" */;
+			buildPhases = (
+				3236A52B1F380CDC005DFDA8 /* Sources */,
+				3236A52C1F380CDC005DFDA8 /* Frameworks */,
+				3236A52D1F380CDC005DFDA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3236A5311F380CDC005DFDA8 /* PBXTargetDependency */,
+			);
+			name = WVRCacheUITests;
+			productName = WVRCacheUITests;
+			productReference = 3236A52F1F380CDC005DFDA8 /* WVRCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3236A5031F380CDC005DFDA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = snailvr;
+				TargetAttributes = {
+					3236A50A1F380CDC005DFDA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+					};
+					3236A5231F380CDC005DFDA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3236A50A1F380CDC005DFDA8;
+					};
+					3236A52E1F380CDC005DFDA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = L6EYUBTRJ5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3236A50A1F380CDC005DFDA8;
+					};
+				};
+			};
+			buildConfigurationList = 3236A5061F380CDC005DFDA8 /* Build configuration list for PBXProject "WVRCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3236A5021F380CDC005DFDA8;
+			productRefGroup = 3236A50C1F380CDC005DFDA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3236A50A1F380CDC005DFDA8 /* WVRCache */,
+				3236A5231F380CDC005DFDA8 /* WVRCacheTests */,
+				3236A52E1F380CDC005DFDA8 /* WVRCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3236A5091F380CDC005DFDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236A51E1F380CDC005DFDA8 /* LaunchScreen.storyboard in Resources */,
+				3236A51B1F380CDC005DFDA8 /* Assets.xcassets in Resources */,
+				3236A5191F380CDC005DFDA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A5221F380CDC005DFDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A52D1F380CDC005DFDA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B6AE13770F0698222BE07F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRCache/Pods-WVRCache-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCB36043BF3B36371EA17F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WVRCache/Pods-WVRCache-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEBB3EB3D95DC46042725286 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WVRCache-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3236A5071F380CDC005DFDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32581D751F3814C200680594 /* SQDownload.m in Sources */,
+				32581D781F3814C200680594 /* WVRSQLiteManager.m in Sources */,
+				32581D771F3814C200680594 /* SQDownloadOperation.m in Sources */,
+				32581D761F3814C200680594 /* SQDownloadManager.m in Sources */,
+				3236A5161F380CDC005DFDA8 /* ViewController.m in Sources */,
+				3236A5131F380CDC005DFDA8 /* AppDelegate.m in Sources */,
+				32581D741F3814C200680594 /* NSURLSession+CorrectedResumeData.m in Sources */,
+				3236A5101F380CDC005DFDA8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A5201F380CDC005DFDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236A5291F380CDC005DFDA8 /* WVRCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3236A52B1F380CDC005DFDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236A5341F380CDC005DFDA8 /* WVRCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3236A5261F380CDC005DFDA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3236A50A1F380CDC005DFDA8 /* WVRCache */;
+			targetProxy = 3236A5251F380CDC005DFDA8 /* PBXContainerItemProxy */;
+		};
+		3236A5311F380CDC005DFDA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3236A50A1F380CDC005DFDA8 /* WVRCache */;
+			targetProxy = 3236A5301F380CDC005DFDA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3236A5171F380CDC005DFDA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236A5181F380CDC005DFDA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3236A51C1F380CDC005DFDA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3236A51D1F380CDC005DFDA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3236A5361F380CDC005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3236A5371F380CDC005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3236A5391F380CDC005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B1C3C7A24F59E56731268D /* Pods-WVRCache.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3236A53A1F380CDC005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B395812D478E1028C62B6B4A /* Pods-WVRCache.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3236A53C1F380CDC005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRCache.app/WVRCache";
+			};
+			name = Debug;
+		};
+		3236A53D1F380CDC005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WVRCache.app/WVRCache";
+			};
+			name = Release;
+		};
+		3236A53F1F380CDC005DFDA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRCache;
+			};
+			name = Debug;
+		};
+		3236A5401F380CDC005DFDA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L6EYUBTRJ5;
+				INFOPLIST_FILE = WVRCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snailvr.WVRCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WVRCache;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3236A5061F380CDC005DFDA8 /* Build configuration list for PBXProject "WVRCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A5361F380CDC005DFDA8 /* Debug */,
+				3236A5371F380CDC005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236A5381F380CDC005DFDA8 /* Build configuration list for PBXNativeTarget "WVRCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A5391F380CDC005DFDA8 /* Debug */,
+				3236A53A1F380CDC005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236A53B1F380CDC005DFDA8 /* Build configuration list for PBXNativeTarget "WVRCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A53C1F380CDC005DFDA8 /* Debug */,
+				3236A53D1F380CDC005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3236A53E1F380CDC005DFDA8 /* Build configuration list for PBXNativeTarget "WVRCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3236A53F1F380CDC005DFDA8 /* Debug */,
+				3236A5401F380CDC005DFDA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3236A5031F380CDC005DFDA8 /* Project object */;
+}

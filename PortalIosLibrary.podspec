@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PortalIosLibrary"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "for portal-ios project."
 
   # This description is used to generate tags and improve search results.
@@ -160,7 +160,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'WVRParser' do |cur|
-  _WhaleyParser   = { :spec_name => "WVRParseUrl", :source_files => ['WVRParser/WVRParser/Classes/WVRParseUrl/*.{h,m}'], :vendored_frameworks => 'WVRParser/WVRParser/Classes/WVRParseUrl/*.framework', :dependency => [{:name => 'PortalIosLibrary/WVRAppContext'}] }
+  _WhaleyParser   = { :spec_name => "WVRParseUrl", :source_files => ['WVRParser/WVRParser/Classes/WVRParseUrl/*.{h,m}'], :vendored_frameworks => 'WVRParser/WVRParser/Classes/WVRParseUrl/*.framework' }
 
     $animations = [_WhaleyParser] #[_Wasu, _WhaleyParser]
     
