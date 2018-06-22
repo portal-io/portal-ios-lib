@@ -203,27 +203,27 @@ Pod::Spec.new do |s|
     cur.vendored_frameworks = 'WVRImage/WVRImage/Classes/SDWebImage.framework'
 
   end
-  s.subspec 'WVRBI' do |cur|
-    cur.source_files = 'WVRBI/WVRBI/Classes/*/**.{h,m}'
-    cur.dependency 'UMengAnalytics-NO-IDFA'
-    cur.dependency 'YYModel'
-    cur.dependency 'PortalIosLibrary/WVRCache'
-    cur.dependency 'PortalIosLibrary/WVRAppContext'
-  end
+  # s.subspec 'WVRBI' do |cur|
+  #   cur.source_files = 'WVRBI/WVRBI/Classes/*/**.{h,m}'
+  #   cur.dependency 'UMengAnalytics-NO-IDFA'
+  #   cur.dependency 'YYModel'
+  #   cur.dependency 'PortalIosLibrary/WVRCache'
+  #   cur.dependency 'PortalIosLibrary/WVRAppContext'
+  # end
 
-  s.subspec 'WVRShare' do |cur|
-    cur.source_files = ['WVRShare/WVRShare/Classes/**/*']
+  # s.subspec 'WVRShare' do |cur|
+  #   cur.source_files = ['WVRShare/WVRShare/Classes/**/*']
     
-    cur.dependency 'UMengUShare/UI',             '~> 6.4'
-    cur.dependency 'UMengUShare/Social/Sina',    '~> 6.4'
-    cur.dependency 'UMengUShare/Social/WeChat',  '~> 6.4'
-    cur.dependency 'UMengUShare/Social/QQ',      '~> 6.4'
-    cur.dependency 'PortalIosLibrary/WVRBI'
-    cur.dependency 'PortalIosLibrary/WVRAppContext'
-    # cur.dependency 'PortalIosLibrary/WVRWidget'
-  end
+  #   cur.dependency 'UMengUShare/UI',             '~> 6.4'
+  #   cur.dependency 'UMengUShare/Social/Sina',    '~> 6.4'
+  #   cur.dependency 'UMengUShare/Social/WeChat',  '~> 6.4'
+  #   cur.dependency 'UMengUShare/Social/QQ',      '~> 6.4'
+  #   cur.dependency 'PortalIosLibrary/WVRBI'
+  #   cur.dependency 'PortalIosLibrary/WVRAppContext'
+  #   # cur.dependency 'PortalIosLibrary/WVRWidget'
+  # end
   s.subspec 'WVRSocketIO' do |cur|
-    cur.vendored_frameworks = ['WVRSocketIO/WVRSocketIO/Classes/SocketIO/SocketIO.framework']
+    cur.vendored_frameworks = 'WVRSocketIO/SocketIO.framework'
   end
   s.subspec 'WVRNetModel' do |cur|
     cur.source_files = 'WVRNetModel/WVRNetModel/Classes/*.{h,m}'
