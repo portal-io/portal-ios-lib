@@ -159,14 +159,47 @@ Pod::Spec.new do |s|
   cur.dependency 'CocoaHTTPServer'
   end
 
-  s.subspec 'WVRPlayer' do |cur|
-  cur.source_files = ['WVRPlayer/WVRPlayer/Classes/**/*.{h,m}']
+  s.subspec 'WVRParser' do |cur|
+  _WhaleyParser   = { :spec_name => "WVRParseUrl", :source_files => ['WVRParser/WVRParser/Classes/WVRParseUrl/*.{h,m}'], :vendored_frameworks => 'WVRParser/WVRParser/Classes/WVRParseUrl/*.framework', :dependency => [{:name => 'PortalIosLibrary/WVRAppContext'}] }
 
-  cur.vendored_frameworks = ['WVRPlayer/WVRPlayer/Classes/Player/WhaleyVRPlayer.framework']
-  cur.resources = ['WVRPlayer/WVRPlayer/Classes/Player/WVRPlayerBundle.bundle']
+    $animations = [_WhaleyParser] #[_Wasu, _WhaleyParser]
+    
+    $animations.each do |spec|
+        cur.subspec spec[:spec_name] do |ss|
+
+            if spec[:source_files]
+              ss.source_files = spec[:source_files]
+            end
+            if spec[:sub_dependency]
+              spec[:sub_dependency].each do |dep|
+                  ss.dependency "WVRParser/#{dep[:spec_name]}"
+              end
+            end
+            if spec[:vendored_frameworks]
+                ss.vendored_frameworks = spec[:vendored_frameworks]
+            end
+            if spec[:vendored_libraries]
+                ss.vendored_libraries = spec[:vendored_libraries]
+            end
+            if spec[:dependency]
+                spec[:dependency].each do |dep|
+                    ss.dependency dep[:name]
+                end
+            end
+        end
+    end
   
-  cur.dependency 'WVRBI'
-  cur.dependency 'WVRParser'
-  cur.dependency 'WVRAppContext'
+    cur.framework = 'Foundation', 'Security'
+    cur.dependency 'PortalIosLibrary/WVRAppContext'
   end
+  # s.subspec 'WVRPlayer' do |cur|
+  # cur.source_files = ['WVRPlayer/WVRPlayer/Classes/**/*.{h,m}']
+
+  # cur.vendored_frameworks = ['WVRPlayer/WVRPlayer/Classes/Player/WhaleyVRPlayer.framework']
+  # cur.resources = ['WVRPlayer/WVRPlayer/Classes/Player/WVRPlayerBundle.bundle']
+  
+  # cur.dependency 'WVRBI'
+  # cur.dependency 'WVRParser'
+  # cur.dependency 'WVRAppContext'
+  # end
 end

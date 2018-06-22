@@ -1,0 +1,6 @@
+framework module LuaParser {
+  umbrella header "LuaParser.h"
+
+  export *
+  module * { export * }
+}

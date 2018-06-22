@@ -14,3 +14,10 @@ WVRNet/WVRNet.xcworkspace/
 WVRUtil/WVRUtil.xcworkspace
 WVRPlayer/WVRPlayer.xcworkspace
 WVRPlayer/WVRPlayer.xcodeproj/xcuserdata/
+WVRParser/.DS_Store
+WVRParser/WVRParser/.DS_Store
+WVRParser/Podfile.lock
+WVRParser/Pods/
+WVRParser/WVRParser.xcodeproj/project.xcworkspace/xcuserdata/land.xcuserdatad/
+WVRParser/WVRParser.xcodeproj/xcuserdata/land.xcuserdatad/
+WVRParser/WVRParser.xcworkspace/
